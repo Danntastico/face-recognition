@@ -1,7 +1,7 @@
 
 const Navigation = () => {
   return (
-    <nav>
+    <nav className="flex justify-between m-10">
       <div>
         <h3>simple face detection</h3>
       </div>

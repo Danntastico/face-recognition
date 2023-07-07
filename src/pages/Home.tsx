@@ -4,10 +4,12 @@ import ResultsContainer from "../containers/ResultsContainer"
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-full">
       <Navigation/>
-      <ImageInput/>
-      <ResultsContainer/>
+      <div className="w-full flex flex-col items-center content-center m-5">
+        <ImageInput/>
+        <ResultsContainer/>
+      </div>
     </div>
   )
 }
